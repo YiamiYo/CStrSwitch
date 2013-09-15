@@ -25,6 +25,12 @@ clang++ css-test.cpp -Wno-switch -std=c++11 -stdlib=libc++ -O3 -o css-test
 ./css-test 10000 commission constant circumstances constitute level affect institute render appeal asd asdgsdg asfa fasdf
 echo 'Done!'
 
+echo 'Running test: 500 random strings 100 times...'
+./css-gen CStrSwitch --tests --prefix _ --random 500
+clang++ css-test.cpp -Wno-switch -std=c++11 -stdlib=libc++ -O3 -o css-test
+./css-test 100 commission constant circumstances constitute level affect institute render appeal asd asdgsdg asfa fasdf
+echo 'Done!'
+
 echo 'Running test: 500 random strings 10000 times...'
 ./css-gen CStrSwitch --tests --prefix _ --random 500
 clang++ css-test.cpp -Wno-switch -std=c++11 -stdlib=libc++ -O3 -o css-test

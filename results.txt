@@ -1,45 +1,50 @@
 Running test: 5 random strings 100 times...
-(0) string switch time (ms): 0.009953
-(0) std::map switch time (ms): 0.148095
-(0) strcmp time (ms): 0.028394
+(0) string switch time (ms): 0.006491
+(0) std::map switch time (ms): 0.150479
+(0) strcmp time (ms): 0.028365
 Done!
 Running test: 5 random strings 10000 times...
-(0) string switch time (ms): 0.608463
-(0) std::map switch time (ms): 13.808794
-(0) strcmp time (ms): 2.771832
+(0) string switch time (ms): 0.829330
+(0) std::map switch time (ms): 14.140503
+(0) strcmp time (ms): 2.771813
 Done!
 Running test: 50 random strings 100 times...
-(0) string switch time (ms): 0.012686
-(0) std::map switch time (ms): 0.214741
-(0) strcmp time (ms): 0.272803
+(0) string switch time (ms): 0.010239
+(0) std::map switch time (ms): 0.206769
+(0) strcmp time (ms): 0.273083
 Done!
 Running test: 50 random strings 10000 times...
-(0) string switch time (ms): 0.886130
-(0) std::map switch time (ms): 21.323406
-(0) strcmp time (ms): 27.158930
+(0) string switch time (ms): 0.926199
+(0) std::map switch time (ms): 18.026093
+(0) strcmp time (ms): 27.158348
+Done!
+Running test: 500 random strings 100 times...
+(0) string switch time (ms): 0.024139
+(0) std::map switch time (ms): 0.371910
+(0) strcmp time (ms): 2.843964
 Done!
 Running test: 500 random strings 10000 times...
-(0) string switch time (ms): 1.231067
-(0) std::map switch time (ms): 26.344871
-(0) strcmp time (ms): 278.290068
+(0) string switch time (ms): 1.375549
+(0) std::map switch time (ms): 25.469724
+(0) strcmp time (ms): 275.202068
 Done!
 Running test: 45 strings 100 times...
-(900) string switch time (ms): 0.013707
-(900) std::map switch time (ms): 0.181443
-(900) strcmp time (ms): 0.122207
+(900) string switch time (ms): 0.013693
+(900) std::map switch time (ms): 0.177958
+(900) strcmp time (ms): 0.123169
 Done!
 Running test: 45 strings 10000 times...
-(90000) string switch time (ms): 1.106437
-(90000) std::map switch time (ms): 16.173222
-(90000) strcmp time (ms): 11.768733
+(90000) string switch time (ms): 1.118296
+(90000) std::map switch time (ms): 16.132244
+(90000) strcmp time (ms): 12.003933
 Done!
 Running test: 1000 strings 100 times...
-(900) string switch time (ms): 0.036031
-(900) std::map switch time (ms): 0.506889
-(900) strcmp time (ms): 10.182526
+(900) string switch time (ms): 0.037405
+(900) std::map switch time (ms): 0.510090
+(900) strcmp time (ms): 9.410165
 Done!
 Running test: 1000 strings 10000 times...
-(90000) string switch time (ms): 1.745788
-(90000) std::map switch time (ms): 27.382712
-(90000) strcmp time (ms): 870.708857
+(90000) string switch time (ms): 1.745090
+(90000) std::map switch time (ms): 26.907280
+(90000) strcmp time (ms): 725.416994
 Done!
